@@ -1,0 +1,124 @@
+{
+  "colors": {
+    "primary": {
+      "fuelYellow": "#FCA61F",
+      "crocusPurple": "#8976FD"
+    },
+    "secondary": {
+      "daySkyBlue": "#6DC8FF",
+      "easterPurple": "#C06EF3",
+      "softBlue": "#7188FF",
+      "selectiveYellow": "#FD8A09",
+      "lightTurquoise": "#6DEDC3"
+    },
+    "text": {
+      "brightGrey": "#332C5C",
+      "purpleHaze": "#494369",
+      "midGrey": "#5E587A",
+      "white": "#FFFFFF"
+    },
+    "state": {
+      "info": "#2F80ED",
+      "success": "#27AE60",
+      "warning": "#E2B93B",
+      "error": "#EB5757"
+    },
+    "background": {
+      "white": "#FFFFFF",
+      "peach": "#FFF8F2",
+      "lightGreen": "#F8FFFB"
+    },
+    "theme": {
+      "home01": {
+        "primary": "#8976FD",
+        "accent": "#FCA61F",
+        "background": "#FFFFFF"
+      },
+      "home02": {
+        "primary": "#FF6B4A",
+        "accent": "#FD8A09",
+        "background": "#FFF8F2"
+      },
+      "home03": {
+        "primary": "#5BC17F",
+        "accent": "#1293EC",
+        "background": "#FFFFFF"
+      }
+    }
+  },
+  "typography": {
+    "fontFamilies": {
+      "heading": "Poppins",
+      "body": "Nunito Sans"
+    },
+    "headings": {
+      "h1": {
+        "fontFamily": "Poppins",
+        "fontSize": "56px",
+        "lineHeight": "130%",
+        "fontWeight": "700"
+      },
+      "h2": {
+        "fontFamily": "Poppins",
+        "fontSize": "48px",
+        "lineHeight": "130%",
+        "fontWeight": "600"
+      },
+      "h3": {
+        "fontFamily": "Poppins",
+        "fontSize": "44px",
+        "lineHeight": "140%",
+        "fontWeight": "600"
+      },
+      "h4": {
+        "fontFamily": "Poppins",
+        "fontSize": "36px",
+        "lineHeight": "140%",
+        "fontWeight": "600"
+      },
+      "h5": {
+        "fontFamily": "Poppins",
+        "fontSize": "24px",
+        "lineHeight": "160%",
+        "fontWeight": "600"
+      }
+    },
+    "body": {
+      "body01": {
+        "fontFamily": "Nunito Sans",
+        "fontSize": "20px",
+        "lineHeight": "180%",
+        "fontWeight": "400"
+      },
+      "body02": {
+        "fontFamily": "Nunito Sans",
+        "fontSize": "20px",
+        "lineHeight": "180%",
+        "fontWeight": "700"
+      },
+      "body03": {
+        "fontFamily": "Nunito Sans",
+        "fontSize": "18px",
+        "lineHeight": "180%",
+        "fontWeight": "400"
+      },
+      "body04": {
+        "fontFamily": "Nunito Sans",
+        "fontSize": "18px",
+        "lineHeight": "150%",
+        "fontWeight": "700"
+      }
+    }
+  },
+  "spacing": {
+    "container": "1200px",
+    "gutter": "30px"
+  },
+  "borderRadius": {
+    "sm": "4px",
+    "md": "8px",
+    "lg": "16px",
+    "xl": "24px",
+    "full": "9999px"
+  }
+}

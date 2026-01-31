@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@theme {
+  /* Fonts */
+  --font-heading: 'Poppins', sans-serif;
+  --font-body: 'Nunito Sans', sans-serif;
+
+  /* Primary Colors */
+  --color-fuel-yellow: #FCA61F;
+  --color-crocus-purple: #8976FD;
+
+  /* Secondary Colors */
+  --color-day-sky-blue: #6DC8FF;
+  --color-easter-purple: #C06EF3;
+  --color-soft-blue: #7188FF;
+  --color-selective-yellow: #FD8A09;
+  --color-light-turquoise: #6DEDC3;
+
+  /* Text Colors */
+  --color-bright-grey: #332C5C;
+  --color-purple-haze: #494369;
+  --color-mid-grey: #5E587A;
+
+  /* State Colors */
+  --color-info: #2F80ED;
+  --color-success: #27AE60;
+  --color-warning: #E2B93B;
+  --color-error: #EB5757;
+
+  /* Theme Colors */
+  --color-coral: #FF6B4A;
+  --color-green: #5BC17F;
+  --color-peach-bg: #FFF8F2;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecg.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/nunitosans/v15/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/nunitosans/v15/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfUXlpNn64CL7U.woff2') format('woff2');
+}
+
+body {
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  color: var(--color-bright-grey);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}

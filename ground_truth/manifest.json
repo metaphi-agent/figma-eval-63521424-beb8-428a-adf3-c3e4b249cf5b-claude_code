@@ -1,0 +1,12 @@
+{
+  "figma_file_key": "r1LOYSPnWonAmzsyMcCk0a",
+  "total_frames": 6,
+  "frames": [
+    {"name": "01_Home 01", "node_id": "1706:3389", "gt_image": "01_Home-01.png", "target_route": "/home-01"},
+    {"name": "02_Home 02", "node_id": "1706:2184", "gt_image": "02_Home-02.png", "target_route": "/home-02"},
+    {"name": "03_Home 03", "node_id": "1706:773", "gt_image": "03_Home-03.png", "target_route": "/home-03"},
+    {"name": "Mobile-Home_01", "node_id": "1706:2790", "gt_image": "Mobile-Home_01.png", "target_route": "/home-01"},
+    {"name": "Mobile-Home_02", "node_id": "1706:1699", "gt_image": "Mobile-Home_02.png", "target_route": "/home-02"},
+    {"name": "Mobile-Home_03", "node_id": "1706:46", "gt_image": "Mobile-Home_03.png", "target_route": "/home-03"}
+  ]
+}
